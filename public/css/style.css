@@ -1,0 +1,222 @@
+.formPengajuan{
+    margin-top: 3vw;
+}
+
+.peminjamanDivider{
+    margin: 2vw 0;
+    width: 50%;
+    background-color: grey;
+    height: 1px;
+}
+
+.chooseButton{
+    float: right;
+    margin-top: 3.5vw;   
+}
+
+.chooseButton2{
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin-top: 3.5vw;   
+}
+
+.chooseButton2 .btn-2,.chooseButton2 .btn-1{
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: 0.5vw;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.chooseButton .buttonItem,.chooseButton2 .buttonItem{
+    padding: 0.5vw 1.5vw;
+    border: none;
+    color: white
+}
+
+.chooseButton .btn-2,.chooseButton2 .btn-2{
+    background-color: #28a745;
+}
+
+.chooseButton .btn-1,.chooseButton2 .btn-1{
+    background-color: #dc3545;
+}
+
+.peminjamanTop{
+    display: flex;
+    justify-content:space-between
+}
+
+.peminjamanTop a{
+    margin-left: 1vw;
+}
+
+.listPeminjaman{
+    margin-top: 2vw;
+}
+.topButton{
+    display: flex;
+    width: 0;
+}
+
+.pengajuanTop{
+    height: 10vw;
+}
+
+
+.box1{
+    margin-top: 0.5vw;
+    padding: 20px;
+    color: black;
+}
+
+
+.itemPeminjaman{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.itemPeminjaman .data{
+    width: 50%;
+    display: flex;
+    padding: 0 0;
+}
+
+.itemPeminjaman .data .check{
+   height: 100%;
+   margin: 0;
+}
+.itemPeminjaman .data .check input{
+    transform: scale(1.5);
+    margin-right: 1vw;
+ }
+
+.itemPeminjaman .status{
+    width: 20%;
+    text-align: center;
+    height: max-content;
+}
+
+.box1{
+    border: 1px solid #3359ca;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status[data-status="pending"]:after {
+    color:#dc3545
+}
+
+.bar{
+    margin: 2vw 0 1vw 0;
+    height:4vw
+}
+
+.bar a{
+    float: left;
+    margin-right: 1vw;
+    width:max-content
+}
+
+.cetak{
+    display: flex;
+    justify-content:flex-end
+}
+
+.boxPdf{
+    width:100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.boxPdf .topPDF{
+    width:100%;
+    height: 100px;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr 1fr; */
+}
+
+.boxPdf .topPDF .kiri{
+    width: 20%;
+    float: left;
+    height: 100%;
+    background-color:red;
+    border: 1px solid black;
+}
+
+.boxPdf .topPDF .tengah{
+    width: 60%;
+    float: left;
+    height: 100%;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    color: black;
+    text-align:center;
+    border: 1px solid black;
+}
+
+
+.boxPdf .topPDF .kanan{
+    float: left;
+    font-size: 15px;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    color: black;
+    text-align:center;
+}
+
+.boxPdf .topPDF .tengah h2{
+    margin: 1vw 0;
+}
+
+.boxPdf p{
+    margin: 0.1vw 0;
+}
+
+.linePDF{
+    width:100%;
+    height:1px;
+    background-color:black
+}
+
+
+.isiPDF{
+    padding: 2vw 0.5vw;
+}
+
+.isiPDF-atas{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+
+.isiPDF-atas .kanan{
+    background-color: red;
+}
+
+.boxPdf .mainTable{
+    padding: 0 1vw;
+}
+
+.tableFormUser{
+    width: 50%;
+}
+.tableFormUser input{
+    width: 100%;
+}
+
+.tableFormUser td{
+    padding: 0.5vw 0;
+}
+
+/* .barcodeContent{
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 1vw;
+    margin: 1vh auto;
+}
+
+.barangContent .atas{
+    width: 25%;
+} */
